@@ -1,6 +1,4 @@
 window.onload = function(){
-
-   $('html, body').scrollTop(0);
    
     $('#nav1').click(function(){
         $('html, body').scrollTop(0);
