@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:auto;
+    float: none;
+    text-align: center;
+}
+
+body{
+    width: auto;
+}
+#main-header{
+    padding: 10px 5px;
+    width:auto;
+    float: none;
+}
+#nav{
+    background-color:#fdd;
+    text-align: center;
+}
+#nav ul li{
+    font-weight: 700;
+    padding: 5px;
+    display: inline-block;
+}
+#nav ul li :hover,
+#nav ul li :active{
+    background-color:lightgray;
+}
+
+img {
+    max-width: 100%;
+}
+.aboutme{
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.aboutme_image {
+    width: auto;
+    border: 1px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.favorite{
+    display: inline-block;
+    width: auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.fovirte_image {
+    margin: 0px;
+    width: auto;
+    padding: 10px;
+}
+#favorite_image {
+    margin: 0px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.aboutme a{
+    color:darksalmon; 
+}
+.favorite a {
+    color: darkorange;
+}
+
+footer{
+    border-top: 1px solid #e0e0e0;
+    color: #777;
+    text-align: center;
+    line-height: 30px;
+}
+a.go-top {
+    text-align: center;
+    color: black;
+    border-radius:20px; position:fixed; right:5%; bottom:40px; z-index:9999; 
+    background: center 70% rgba(255,221,221); 
+    display:block; width:35px; height:35px;
+}
+header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
